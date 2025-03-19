@@ -53,7 +53,7 @@ ready = input('\nAre you ready to take flight: ')
 
 
 try:
-    if ready.lower() == 'yes':
+    if ready.lower() in ['yes','ye','y','go','good','skibidi','check']:
         print("\nStarting Drone!\n")
 
         sendmsg('command', 0)
