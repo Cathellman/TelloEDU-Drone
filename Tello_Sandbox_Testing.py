@@ -59,13 +59,13 @@ try:
         sendmsg('command', 0)
         sendmsg('takeoff')
 
-        sendmsg('forward 100', 8)
-        sendmsg('ccw 90', 8)
-        sendmsg('forward 100', 8)
-        sendmsg('ccw 90', 8)
-        sendmsg('forward 100', 8)
-        sendmsg('ccw 90', 8)
-        sendmsg('forward 100', 8)
+        sendmsg('forward 100', 4)
+        sendmsg('ccw 90', 4)
+        sendmsg('forward 100', 4)
+        sendmsg('ccw 90', 4)
+        sendmsg('forward 100', 4)
+        sendmsg('ccw 90', 4)
+        sendmsg('forward 100', 4)
 
         sendmsg('land')
 
