@@ -56,26 +56,21 @@ try:
     if ready.lower() in ['yes','ye','y','go','good','skibidi','check']:
         print("\nStarting Drone!\n")
 
-        sendmsg('command', 0)
+        sendmsg('command', 4)
+
+        sendmsg('battery?', 4)
+
         sendmsg('takeoff')
-
-        sendmsg('battery?')
-
-<<<<<<< Updated upstream
 
         sendmsg('flip f', 6)
 
+        sendmsg('flip b', 6)
 
-
-
-        sendmsg('battery?')
-=======
-        sendmsg('flip f', 4)
-       
-        
->>>>>>> Stashed changes
+        sendmsg('flip f',4)
 
         sendmsg('land')
+
+        sendmsg('battery?')
 
         print('\nGreat Flight!!!')
 
