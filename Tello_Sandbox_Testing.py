@@ -61,6 +61,7 @@ try:
 
         sendmsg('battery?')
 
+<<<<<<< Updated upstream
 
         sendmsg('flip f', 6)
 
@@ -68,6 +69,11 @@ try:
 
 
         sendmsg('battery?')
+=======
+        sendmsg('flip f', 4)
+       
+        
+>>>>>>> Stashed changes
 
         sendmsg('land')
 
