@@ -59,9 +59,15 @@ try:
         sendmsg('command', 0)
         sendmsg('takeoff')
 
+        sendmsg('battery?')
 
-        sendmsg('flip f', 4)
-       
+
+        sendmsg('flip f', 6)
+
+
+
+
+        sendmsg('battery?')
 
         sendmsg('land')
 
