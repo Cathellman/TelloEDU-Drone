@@ -62,8 +62,9 @@ try:
         sendmsg('battery?',2)
 
         # Commit Message: First Hoop - Stable
-        sendmsg('go 160 0 0 100',6)
-        sendmsg('go 200 0 50 100',4)
+        sendmsg('go 165 0 0 100',4)
+        sendmsg('go 205 0 50 100',4)
+        
 
 
         # Commit Message: Second Hoop - Stable
