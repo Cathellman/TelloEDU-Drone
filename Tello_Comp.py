@@ -56,9 +56,9 @@ try:
     if ready.lower() in ['yes', 'y', 'ye', 'g', 'go', 'skibidi']:
         print("\nStarting Drone!\n")
 
-        sendmsg('command', 0)
+        sendmsg('command', 2)
 
-        sendmsg('takeoff',6)
+        sendmsg('takeoff',4)
 
         sendmsg('battery?',2)
 
@@ -67,11 +67,11 @@ try:
 
 
         # Commit Message: Second Hoop - Stable
-        sendmsg('go 205 0 40 100', 6)
+        sendmsg('go 250 0 40 100', 6)
 
-        sendmsg('curve 150 150 0 100 0 0 50', 6)
+        sendmsg('curve -160 160 0 -120 0 0 50', 8)
         # Commit Message: Third Hoop - Stable
-
+        sendmsg('go -170 100 0 100', 4 )
 
         # Commit Message: Final Hoop - Stable
 
